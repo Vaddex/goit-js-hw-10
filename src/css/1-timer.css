@@ -1,3 +1,6 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+}
 .timer {
     display: flex;
     column-gap: 24px;
@@ -47,6 +50,9 @@ input:focus {
 }
 
 button {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
     display: inline-flex;
     padding: 8px 16px;
     justify-content: center;
@@ -56,4 +62,6 @@ button {
     background: #cfcfcf;
     border: none;
     color: #989898;
+    width: 75px;
+    height: 40px;
 }
